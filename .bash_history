@@ -6,3 +6,5 @@ gitconfig user.name "Dominic-Krelling"
 git config user.name "Dominic-Krelling"
 git config user.email "dominic.krelling1@gmail.com"
 su -
+npm
+run start
