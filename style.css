@@ -23,6 +23,9 @@ header {
 
 .itens-header {
     margin: 0px 400px 0px 50px;
+    color:#FF5F0F;
+    font-size:x-large;
+    font-family:'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
 }
 
 main {
