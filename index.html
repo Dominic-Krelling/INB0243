@@ -4,30 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="script.js"></script>
     <title>Trabalho de Redes</title>
 </head>
 <body>
     <header>
-        <p class="itens-header"> TecnoGeek </p>
-        <input class="itens-header" placeholder="Buscar..."/>
-
-        <div class="dropdown">
-            <button class="dropbtn">
-                <img src="./img/menu-aberto.png" alt="menu">
+        <nav class="navbar navbar-expand-lg" style="background-color: #6304AE;">
+            <a class="navbar-brand" href="#" style="color: #FF5F0F;">Techno Geek</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="dropdown-content">
-                <a href="#">Home</a>
-                <a href="screens/about.html">Sobre Nós</a>
-                <a href="screens/faq.html">Dúvidas</a>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="screens/faq.html" style="color: #FF5F0F;">Dúvidas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="screens/about.html" style="color: #FF5F0F;">Sobre Nós</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border: transparent; background-color: #FF5F0F; color: #6304AE;">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+
+    <main style="height: auto;">
+        <div style="justify-content: center;">
+            <p style="color: #FF5F0F;">Recomendados</p>
+        </div>
+        <div style="display: flex; flex-direction: row; margin: 10px; justify-content: space-around;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height: 270px;" src="media/images/02b4d66c-7e5f-4c0d-982b-894324d1abb8.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Camiseta Goku</h5>
+
+                  <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height: 270px;" src="media/images/190466c6-b30a-4861-864c-0e20a3ff97ae.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Moletom Goku</h5>
+
+                  <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height: 270px;" src="media/images/1a1d7cec-382f-4f38-a94e-a9474ec5d40f" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Moletom Zoro</h5>
+
+                  <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height: 270px;" src="media/images/1bf70493-44c9-4313-93f5-b57852a75cb5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Moletom Ash</h5>
+
+                  <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height: 270px;" src="media/images/364e7a80-727a-4ae8-948e-14a4e4384e66.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Camiseta Ichigo</h5>
+
+                  <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" style="height: 270px;" src="media/images/72ef3e23-8f31-445e-b7ea-5ff9b035c318.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Camiseta Ash</h5>
+
+                  <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+                </div>
             </div>
         </div>
-    </header>
-    <main>
-        <p>main</p>
+    <div style="display: flex; flex-direction: row; margin: 10px; justify-content: space-around;">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" style="height: 270px;" src="media/images/81d214c5-fbdf-4603-adcc-56d071ccd6cd" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Zoro</h5>
+              <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" style="height: 270px;" src="media/images/9506bf07-abc6-44b3-8462-1e4af54b7497.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Moletom Zoro</h5>
+              <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" style="height: 270px;" src="media/images/a29a1fbb-ccf7-45a4-bef5-dc48f5a69f83.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Ash</h5>
+              <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" style="height: 270px;" src="media/images/a528837e-c2db-43ff-b6d7-39ee3050c340" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Moletom Ichigo</h5>
+              <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" style="height: 270px;" src="media/images/ab71ea75-bb4c-4a43-a9c7-c67e737528e0" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Zoro</h5>
+              <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" style="height: 270px;" src="media/images/b4387928-a1d0-4bfd-ac75-1f22e5ee307e.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Moletom Ash
+              </h5>
+              <a href="#" class="btn btn-primary" style="border: transparent; background-color: #FF5F0F ;">Ir para o produto</a>
+            </div>
+        </div>
+    </div>
     </main>
-    <footer>
-        <p>footer</p>
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
