@@ -61,3 +61,33 @@ img {
     width: 30px;
     height: 40px;
 }
+
+.form{
+    border: #262626 solid 2px;
+    height: 450px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* dropdown */
+    .dropdown {
+        position: relative;
+    }
+    .dropbtn {
+        border: none;
+        background-color: transparent;
+        
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+/* dropdown */
