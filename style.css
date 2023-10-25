@@ -58,6 +58,12 @@ img {
     height: 40px;
 }
 
+.form{
+    border: #262626 solid 2px;
+    height: 450px;
+    width: 600px;
+}
+
 /* dropdown */
     .dropdown {
         position: relative;
@@ -65,6 +71,8 @@ img {
     .dropbtn {
         border: none;
         background-color: transparent;
+        justify-content: center;
+        align-items: center;
     }
     .dropdown-content {
         display: none;
