@@ -20,3 +20,5 @@ su -
 
 su -
 su -
+git pull
+exit
